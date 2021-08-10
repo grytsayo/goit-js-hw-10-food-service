@@ -9,12 +9,8 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-     <include src="./partials/example.html"></include>
-
     <div class="toolbar">
       <!-- Разметка переключателя темы -->
       <div class="theme-switch">
@@ -48,7 +44,6 @@
     <!-- В этот список рендери разметку меню -->
     <ul class="menu js-menu"></ul>
 
-        <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-        <script src="./index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
